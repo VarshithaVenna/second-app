@@ -1,0 +1,44 @@
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 99, 156);
+    height: 100vh;
+}
+
+
+.temp {
+    font-weight: bold;
+    font-family: Roboto;
+    color: #fff;
+    text-align: center;
+}
+
+input {
+    margin-right: 10px;
+    height: 40px;
+}
+
+.search {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #fff;
+    color: blue;
+    align-self: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country {
+    color: #fff;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+}
